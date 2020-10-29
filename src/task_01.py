@@ -25,19 +25,11 @@ def helloWorld(name):
 
 """
 
-# def csWhereIsBob(names):
-#     for x in names:
-#         if x == "Bob":
-#             return names.index(x)
-#         else:
-#             return -1
-
 def csWhereIsBob(names):
     for x in names:
         if x == "Bob":
             return names.index(x)
-        else:
-            return -1
+    return -1
 
 
 print(csWhereIsBob(["Jimmy", "Layla", "Mandy"]))
