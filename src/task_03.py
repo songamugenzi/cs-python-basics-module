@@ -10,6 +10,7 @@ csOppositeReverse("Radar") ➞ "RADAr"
 Notes:
 
 The input string will only contain alpha characters.
+
 [execution time limit] 4 seconds (py3)
 
 [input] string txt

@@ -10,6 +10,7 @@ csWhereIsBob(["Jimmy", "Layla", "James"]) ➞ -1
 Notes:
 
 Assume all names start with a capital letter and are lowercase thereafter (i.e. don't worry about finding "BOB" or "bob").
+
 [execution time limit] 4 seconds (py3)
 
 [input] array.string names

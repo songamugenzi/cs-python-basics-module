@@ -11,6 +11,7 @@ Notes:
 
 1 <= years <= 10
 1 <= groups <=26
+
 [execution time limit] 4 seconds (py3)
 
 [input] integer years

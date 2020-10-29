@@ -14,6 +14,7 @@ csAlphanumericRestriction("H3LL0") ➞ False
 Notes:
 
 Any string that contains spaces or is empty should return False.
+
 [execution time limit] 4 seconds (py3)
 
 [input] string input_str
