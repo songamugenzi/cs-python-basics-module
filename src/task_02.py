@@ -10,6 +10,7 @@ Examples:
 csAlphanumericRestriction("Bold") ➞ True
 csAlphanumericRestriction("123454321") ➞ True
 csAlphanumericRestriction("H3LL0") ➞ False
+
 Notes:
 
 Any string that contains spaces or is empty should return False.

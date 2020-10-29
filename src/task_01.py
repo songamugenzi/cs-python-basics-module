@@ -6,6 +6,7 @@ Examples:
 csWhereIsBob(["Jimmy", "Layla", "Bob"]) ➞ 2
 csWhereIsBob(["Bob", "Layla", "Kaitlyn", "Patricia"]) ➞ 0
 csWhereIsBob(["Jimmy", "Layla", "James"]) ➞ -1
+
 Notes:
 
 Assume all names start with a capital letter and are lowercase thereafter (i.e. don't worry about finding "BOB" or "bob").
