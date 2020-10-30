@@ -21,12 +21,15 @@ You can expect all the tests to have valid chords.
 """
 
 def csMakeItJazzy(chords):
-    new_chord = ([str(f"{c}{7}") for c in chords])
-            
-    new_chords = []
-    new_chords.extend(new_chord)
-    
-    return new_chords
+    new_chord_list = []
+    for c in chords:
+        if c[-1] != "7":
+            new_chord_list.append(f"{c}7")
+        else:
+            new_chord_list.append(c)
+    # different method using List Comprehension
+    # new_chord = [f"{c}{7}" for c in chords if c[-1] != 7 else c for c in chords]
+    return new_chord_list
 
 print(csMakeItJazzy(["G", "F", "C"]))
 print(csMakeItJazzy(["Dm", "G", "E", "A"]))
